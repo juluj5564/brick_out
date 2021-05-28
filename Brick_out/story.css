@@ -1,0 +1,52 @@
+*{margin: 0;padding:0;}
+body{overflow: hidden; width :960px; height: 700px; margin: 0 auto;}
+img{border: 0;}
+
+.story{
+	height: 690px;
+	text-align: center;
+	font-size: 30px;
+	line-height: 690px;
+}
+
+button{
+	margin: 0 auto;
+	border:0;
+}
+
+#pre{
+	width: 100px;
+	height: 110px;
+	float: left;
+}
+
+#skip{
+	width: 280px;
+	height: 110px;
+	background-color: white;
+	padding: 0 230px 0 230px;
+	float: center;
+}
+
+#next{
+	width: 100px;
+	height: 110px;
+	float: right;
+}
+
+img{
+	display: none;
+	position: relative;
+}
+#a{
+	display: block;
+}
+#pre{
+	display: block;
+}
+#skip{
+	display: block;
+}
+#next{
+	display: block;
+}

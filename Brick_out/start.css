@@ -1,0 +1,112 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	text-align: center;
+	font-size: 25px;
+}
+span {
+	display: inline-block;
+	font-size: 150px;
+}
+#main {
+	font-family: 'Nanum Pen Script', cursive;
+	margin: 0 auto;
+	width: 600px;
+	height: 450px;
+	padding-top: 50px;
+	color: white;
+	background-image:url('background_this.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#option {
+	margin: 0 auto;
+	width: 500px;
+	height: 200px;
+	font-size: 20px;
+	text-align: center;
+}
+.first {
+	margin-left: 150px;
+	width: 200px;
+	height: 75px;
+	line-height: 75px;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.first:hover {
+	color: black;
+	cursor: pointer;
+}
+#createball {
+	display: none;
+	position: relative;
+}
+#goMain {
+	display: none;
+	position: absolute;
+	width: 30px;
+	top: 430px;
+	left : 50%;
+	transform: translate(-50%, 0%);
+}
+.ballsize {
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	font-size: 50px;
+}
+.ballsize:hover {
+	color: black;
+	cursor: pointer;
+}
+#ballbig {
+	top: 5px;
+	left: 56%;
+}
+#ballsmall {
+	top: 5px;
+	left: 34%;
+}
+.colorbox {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+#colorbox {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#box1 {
+	background-color: red;
+}
+#box2 {
+	background-color: orange;
+}
+#box3 {
+	background-color: yellow;
+}
+#box4 {
+	background-color: green;
+}
+#box5 {
+	background-color: blue;
+}
+#box6 {
+	background-color: #000080;
+}
+#box7 {
+	background-color: purple;
+}
+#storystart {
+	position: absolute;
+	left: 42%;
+	top: 140px;
+	width: 100px;
+	height: 50px;
+	display: block;
+}

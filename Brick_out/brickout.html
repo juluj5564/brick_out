@@ -4,8 +4,54 @@
 	<title>Brick Out</title>
 	<script src = "brickout.js"></script>
 	<link type="text/css" rel = "stylesheet" href="brickout.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
 	<canvas id = "myCanvas"></canvas>
+	<audio id="ad" loop controls>
+		<source src="Paper.mp3" type="audio/mpeg">
+	</audio>
+	<div id = "setting">
+		<div class = "first" id = "startButton1">▶ Play Normal</div>
+		<div class = "first" id = "startButton2">▶ Play Item</div>
+		<div class = "first" id = "rankingButton">▶ Show Ranking</div>
+	</div>
+	<div id="timer">
+		<img id="clock_img" src="clock_face.png" alt="timer">
+		<div id="timer_time">
+		</div>
+	</div>
+	<div id="score">
+		<img id="score_img" src="score_emoji.png" alt="score">
+		<div id="score_num">
+		</div>
+	</div>
+	<div id="userRanking">
+		<div class = "first" id = "normalRankingBtn">▶ Normal Ranking</div>
+		<div class = "first" id = "itemRankingBtn">▶ Item Ranking</div>
+		<div class = "first" id = "Back">▶ Back</div>
+		<div id="normalUserRanking">
+		</div>
+		<div id="itemUserRanking">
+		</div>
+		<div class = "first" id = "Back2">▶ Back</div>
+	</div>
+	<div id="userInfo">
+		<form method="post" name="userInfoForm">
+			<input type="text" id="userInfoText" name="userName" size=15 maxlength=12>
+			<input type="button" id="userInfoEnter" value="Play!!">
+			<div class = "first" id = "Back3">▶ Back</div>
+		</form>
+	</div>
+	<div id="finishGame">
+		<div id="nowUser">
+		</div>
+		<div id="nowScore">
+		</div>
+		<button id="returnMain">Go MAIN...</button>
+	</div>
+	<img id="goMain" src="go_main.png" alt="score">
 </body>
 </html>
